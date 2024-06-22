@@ -7,7 +7,7 @@ const Index = () => {
         <Flex justifyContent="space-between" alignItems="center">
           <Flex alignItems="center">
             <Box bg="gold" p={2} borderRadius="full">
-              <Image src="/images/logo.png" alt="Stag Inc. Robotics Logo" boxSize="40px" />
+              <Image src="/images/new-logo.png" alt="Stag Inc. Robotics Logo" boxSize="40px" />
             </Box>
             <Heading as="h1" size="lg" color="gold" ml={2}>Stag Inc. Robotics</Heading>
           </Flex>
