@@ -1,10 +1,11 @@
-import { Box, Container, Flex, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Text, VStack, Image } from "@chakra-ui/react";
 
 const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <Box width="100%" bg="gray.800" p={4} boxShadow="md" position="fixed" top="0" left="0" right="0" zIndex="1000">
         <Flex justifyContent="space-between" alignItems="center">
+          <Image src="/images/logo.png" alt="Stag Inc. Robotics Logo" boxSize="40px" mr={2} />
           <Heading as="h1" size="lg" color="white">Stag Inc. Robotics</Heading>
         </Flex>
       </Box>
