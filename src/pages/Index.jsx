@@ -9,14 +9,14 @@ const Index = () => {
             <Box bg="gold" p={2} borderRadius="full">
               <Image src="/images/new-logo.png" alt="Stag Inc. Logo" boxSize="40px" />
             </Box>
-            <Heading as="h1" size="lg" color="gold" ml={2}>Stag Inc. Robotics</Heading>
+            <Heading as="h1" size="lg" color="#0693e3" ml={2}>Stag Inc. Robotics</Heading>
           </Flex>
           <Flex>
-            <Link href="#" color="gold" mx={2}>Products</Link>
-            <Link href="#" color="gold" mx={2}>Services</Link>
-            <Link href="#" color="gold" mx={2}>Company</Link>
-            <Link href="#" color="gold" mx={2}>Get Started</Link>
-            <Link href="#" color="gold" mx={2}>KhazanaPay</Link>
+            <Link href="#" color="#0693e3" mx={2}>Products</Link>
+            <Link href="#" color="#0693e3" mx={2}>Services</Link>
+            <Link href="#" color="#0693e3" mx={2}>Company</Link>
+            <Link href="#" color="#0693e3" mx={2}>Get Started</Link>
+            <Link href="#" color="#0693e3" mx={2}>KhazanaPay</Link>
           </Flex>
         </Flex>
       </Box>
